@@ -1,0 +1,15 @@
+runtime: python37
+resources:
+  memory_gb: 4
+env_variables:
+  GOOGLE_APPLICATION_CREDENTIALS: 'key/key.json'
+
+handlers:
+  # This configures Google App Engine to serve the files in the app's static
+  # directory.
+- url: /config
+  static_dir: config
+  # required when static routes are defined, but can be omitted (along with
+  # the entire handlers section) when there are no static files defined.
+- url: /.*
+  script: auto

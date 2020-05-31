@@ -1,0 +1,26 @@
+[
+  {
+    "code": "ABC",
+    "name": "ABC Bank",
+    "url": "https://www.abc_bank.com/foreign-exchange-rates.html",
+    "type": "bank",
+    "enabled": true,
+    "currencies": ["USD","CAD","EUR","GBP","CHF"]
+  },
+  {
+    "code": "XYZ",
+    "name": "XYZ Cambio",
+    "url": "https://www.xyz_cambio.com/foreign-exchange-rates.html",
+    "type": "cambio",
+    "enabled": true,
+    "currencies": ["USD","CAD","EUR","GBP","JPY"]
+  }
+  {
+    "code": "",
+    "name": "",
+    "url": "",
+    "type": "",
+    "enabled": false,
+    "currencies": ["USD","CAD","EUR","GBP","BBD","KYD","XCD","JPY","CHF","TTD"]
+  }
+]
